@@ -9,6 +9,10 @@ public class MouseFollow : MonoBehaviour
     public float maxX;
     public float maxY;
 
+    void Start()
+    {
+        Cursor.visible = false;
+    }
 
     // Update is called once per frame
     void Update()
